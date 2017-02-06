@@ -1,4 +1,10 @@
 {
   "name": "sprite-gallery",
-  "author": "k88hudson"
+  "author": "k88hudson",
+  "dependencies": {
+    "image-size": "^0.5.1"
+  },
+  "scripts": {
+    "generate": "node generate.js > index.html"
+  }
 }
